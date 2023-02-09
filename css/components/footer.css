@@ -1,0 +1,36 @@
+.footer {
+  background-color: #2c2b2b;
+  height: 150px;
+  padding: 60px;
+}
+
+
+.link-list > li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 35px;
+  letter-spacing: 10px;
+}
+
+.link-list {
+  padding: 0;
+}
+
+.link-list a {
+  color: #1EDD88;
+  transition: .5s ease;
+}
+
+#facebook-link a:hover {
+  color: #2374E1;
+}
+
+#twitter-link a:hover {
+  color: rgb(29, 155, 240);
+}
+#instagram-link a:hover {
+  color:#d10869;
+}
+#github-link a:hover {
+  color:white;
+}
